@@ -1,0 +1,13 @@
+app:
+  name: sb-config
+  message: Hello User, you are in ${app.name}
+  list: One, Two, Three
+  map: "{name:'javawiz', appName:'sb-config'}"
+
+sample:
+  name: javawiz
+  version: 1.0
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test

@@ -1,0 +1,9 @@
+app.name=sb-config
+greeting.message=Hello User, you are in ${app.name}
+app.list=One, Two, Three
+app.map={"name":"javawiz", "appName":"sb-config"}
+
+sample.name=javawiz
+sample.version=1.0
+
+management.endpoints.web.exposure.include=*
